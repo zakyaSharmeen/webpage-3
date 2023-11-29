@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_1 {
+  background: url(architect.jpg);
+  height: 800px;
+  width: 1519px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+}
+
+/* display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  letter-spacing: 4px;
+  line-height: 22.5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+
+  height: 54.5; */
+
+.container_1 .fixed {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  letter-spacing: 4px;
+  line-height: 22.5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  /* width: 1536px; */
+  width: 100%;
+  height: 54.5;
+}
+.container_1 > .row-1 > .fixed > .left-1 {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  cursor: pointer;
+}
+.container_1 > .row-1 > .fixed > .right-1 > a {
+  color: rgb(0, 0, 0);
+
+  float: right;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  height: 38.5px;
+  letter-spacing: 4px;
+  line-height: 22.5px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.container_1 > .row-2 {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 387px;
+  left: 607px;
+  margin-top: 16px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+  letter-spacing: 4px;
+  color: white;
+}
+.container_1 > .row-2 > b {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+
+  letter-spacing: 4px;
+}
+
+/* pg-2 */
+
+.container_2 {
+  padding: 8px 16px;
+}
+.container_2 > .row-2 > .top > .part-1 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+.container_2 > .row-2 > .top > .part-2 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+
+.container_2 > .row-2 > .top > .part-3 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+.container_2 > .row-2 > .top > .part-4 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+.container_2 > .row-2 > .bottom > .part-5 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+.container_2 > .row-2 > .bottom > .part-6 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+.container_2 > .row-2 > .bottom > .part-7 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+.container_2 > .row-2 > .bottom > .part-8 > h3 {
+  background: black;
+  padding: 10px;
+  height: 43px;
+  width: 145px;
+  color: white;
+  text-align: center;
+}
+.container_2 > .row-1 {
+  padding: 32px 16px;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  border-bottom: 1px solid #ccc;
+}
+.container_2 > hr {
+  color: azure;
+}
+.container_2 > .row-2 > .top {
+  display: flex;
+  padding-top: 32px;
+}
+
+.container_2 > .row-2 > .top > .part-1 {
+  background: url(house2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  width: 345px;
+  margin: 0 16px;
+}
+.container_2 > .row-2 > .top > .part-2 {
+  background: url(house3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  width: 345px;
+  margin: 0 16px;
+}
+.container_2 > .row-2 > .top > .part-3 {
+  background: url(house4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  width: 345px;
+  margin: 0 16px;
+}
+.container_2 > .row-2 > .top > .part-4 {
+  background: url(house5.jpg);
+  background-repeat: no-repeat;
+  margin: 0 16px;
+  height: 230px;
+  width: 345px;
+}
+.container_2 > .row-2 > .bottom {
+  display: flex;
+}
+
+.container_2 > .row-2 > .bottom > .part-5 {
+  background: url(house3.jpg);
+  background-repeat: no-repeat;
+  margin: 16px 16px;
+  height: 230px;
+  width: 345px;
+}
+.container_2 > .row-2 > .bottom > .part-6 {
+  background: url(house5.jpg);
+  background-repeat: no-repeat;
+  margin: 16px 16px;
+  height: 230px;
+  width: 345px;
+}
+.container_2 > .row-2 > .bottom > .part-7 {
+  background: url(house4.jpg);
+  background-repeat: no-repeat;
+  margin: 16px 16px;
+  height: 230px;
+  width: 345px;
+}
+.container_2 > .row-2 > .bottom > .part-8 {
+  background: url(house2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 16px 16px;
+  height: 230px;
+  width: 345px;
+}
+
+/* pg-3 */
+.container_3 {
+  padding: 8px 32px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.container_3 > .row-1 {
+  padding: 8px 16px;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  border-bottom: 1px solid #ccc;
+}
+.container_3 > .row-2 {
+  padding-top: 32px 8px;
+}
+
+.container_3 > .row-3 {
+  display: flex;
+  padding-top: 32px;
+}
+.john {
+  margin: 10px 0;
+  /* margin: 1; */
+  font-weight: 400;
+}
+
+.ceo {
+  margin: 15px 0;
+  /* z-index: 15px; */
+  font-size: 15px;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+.lorem {
+  margin: 15px 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.button {
+  margin: 15px 0;
+  width: 95%;
+  color: black;
+  /* height: 22px; */
+  padding: 8px 16px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #ddd;
+}
+
+.container_4 {
+  padding: 8px 32px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.container_4 > .row-1 {
+  margin: 10px 0;
+  padding: 16px 0;
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+}
+.container_4 > .row-2 {
+  margin: 10px 0;
+}
+
+.container_4 > .form > input {
+  padding: 8px 8px;
+  display: block;
+  border: none;
+  border: 1px solid #ccc;
+  width: 100%;
+  color: black;
+  font-size: 15px;
+}
+.container_4 > .form > button {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+  letter-spacing: 1.4px;
+  font-size: 15px;
+}
+.container_4 > .form > button:hover {
+  background: #ccc;
+}
+
+.black {
+  background: black;
+  height: 60px;
+  width: 1519px;
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+}
+.black p {
+  margin: 15px 0;
+}
